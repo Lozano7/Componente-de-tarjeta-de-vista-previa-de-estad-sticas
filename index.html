@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="icon"
@@ -9,31 +10,66 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="design/style.css" />
     <title>Frontend Mentor | Stats preview card component</title>
   </head>
 
   <body>
     <div class="container">
-      <section class="section__image">
+      <section class="sections section__image">
         <div class="container-img">
           <img src="images/image-header-mobile.jpg" alt="personas trabajando" />
         </div>
       </section>
 
-      <section class="section__textos"></section>
-
-      <!--<footer class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by
-        <a
-          href="https://github.com/Lozano7/Stats-preview-card-component"
-          target="_blank"
-          >Your Name Here</a
-        >.
-      </footer> -->
+      <section class="sections section__textos">
+        <div class="container-textos">
+          <div class="textos titulo">
+            <h1>
+              Get <span class="palabra-clave">insights</span> that help your
+              business grow.
+            </h1>
+          </div>
+          <div class="textos parrafos">
+            <p>
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+          <div class="textos estadisticas">
+            <div class="container__estadisticas">
+              <div class="items estadisticas__item">
+                <div class="contenedor-items">
+                  <h2>10k+</h2>
+                  <p>companies</p>
+                </div>
+              </div>
+              <div class="items estadisticas__item">
+                <div class="contenedor-items">
+                  <h2>314</h2>
+                  <p>templates</p>
+                </div>
+              </div>
+              <div class="items estadisticas__item">
+                <div class="contenedor-items">
+                  <h2>12m+</h2>
+                  <p>queries</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </body>
 </html>
